@@ -1,0 +1,7 @@
+streamlit
+pandas
+mysql-connector-python
+altair
+python-dotenv
+bcrypt
+psycopg2-binary

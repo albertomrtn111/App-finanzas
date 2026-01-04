@@ -1,0 +1,426 @@
+﻿date;amount;category;subcategory;payment_method;expense_type;notes
+01/01/2024;92.5;Deporte;;Transferencia;Variable;
+01/01/2024;12;Cuidado personal;;Transferencia;Variable;
+01/01/2024;125.5;Comida;;Transferencia;Fijo;
+01/01/2024;97.5;Regalo;;Transferencia;Variable;
+01/01/2024;139.98;Gastos piso;;Transferencia;Fijo;
+01/01/2024;14;Electrónica;;Transferencia;Variable;
+01/01/2024;36.2;Ocio;;Transferencia;Variable;
+01/01/2024;8;Transporte;;Transferencia;Variable;
+01/01/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/02/2024;102.5;Deporte;;Transferencia;Variable;
+01/02/2024;17;Cuidado personal;;Transferencia;Variable;
+01/02/2024;102.5;Comida;;Transferencia;Fijo;
+01/02/2024;160.1;Ocio;;Transferencia;Variable;
+01/02/2024;140;Regalo;;Transferencia;Variable;
+01/02/2024;65;Electrónica;;Transferencia;Variable;
+01/02/2024;77.95;Ropa;;Transferencia;Variable;
+01/02/2024;47.2;Gastos piso;;Transferencia;Fijo;
+01/02/2024;8;Transporte;;Transferencia;Variable;
+01/02/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/03/2024;110.6;Deporte;;Transferencia;Variable;
+01/03/2024;40.7;Cuidado personal;;Transferencia;Variable;
+01/03/2024;109.57;Comida;;Transferencia;Fijo;
+01/03/2024;135.57;Ocio;;Transferencia;Variable;
+01/03/2024;7;Regalo;;Transferencia;Variable;
+01/03/2024;80;Electrónica;;Transferencia;Variable;
+01/03/2024;57.97;Gastos piso;;Transferencia;Fijo;
+01/03/2024;8;Transporte;;Transferencia;Variable;
+01/03/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/04/2024;146;Deporte;;Transferencia;Variable;
+01/04/2024;12;Cuidado personal;;Transferencia;Variable;
+01/04/2024;70.5;Comida;;Transferencia;Fijo;
+01/04/2024;78;Ocio;;Transferencia;Variable;
+01/04/2024;20;Regalo;;Transferencia;Variable;
+01/04/2024;46;Electrónica;;Transferencia;Variable;
+01/04/2024;90.28;Gastos piso;;Transferencia;Fijo;
+01/04/2024;8;Transporte;;Transferencia;Variable;
+01/04/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/05/2024;120.5;Deporte;;Transferencia;Variable;
+01/05/2024;12;Cuidado personal;;Transferencia;Variable;
+01/05/2024;110.85;Comida;;Transferencia;Fijo;
+01/05/2024;53;Ocio;;Transferencia;Variable;
+01/05/2024;138;Regalo;;Transferencia;Variable;
+01/05/2024;154;Electrónica;;Transferencia;Variable;
+01/05/2024;27.87;Gastos piso;;Transferencia;Fijo;
+01/05/2024;7;Hogar;;Transferencia;Fijo;
+01/05/2024;252.97;Ropa;;Transferencia;Variable;
+01/05/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/06/2024;72.5;Deporte;;Transferencia;Variable;
+01/06/2024;17;Cuidado personal;;Transferencia;Variable;
+01/06/2024;96.91;Comida;;Transferencia;Fijo;
+01/06/2024;170.87;Ocio;;Transferencia;Variable;
+01/06/2024;45;Regalo;;Transferencia;Variable;
+01/06/2024;135;Electrónica;;Transferencia;Variable;
+01/06/2024;53.07;Gastos piso;;Transferencia;Fijo;
+01/06/2024;8;Transporte;;Transferencia;Variable;
+01/06/2024;97.5;Hogar;;Transferencia;Fijo;
+01/06/2024;89.9;Ropa;;Transferencia;Variable;
+01/06/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/07/2024;70.9;Deporte;;Transferencia;Variable;
+01/07/2024;34;Cuidado personal;;Transferencia;Variable;
+01/07/2024;38.23;Comida;;Transferencia;Fijo;
+01/07/2024;702.06;Ocio;;Transferencia;Variable;
+01/07/2024;3.35;Regalo;;Transferencia;Variable;
+01/07/2024;26.15;Electrónica;;Transferencia;Variable;
+01/07/2024;87.8;Electrónica;;Transferencia;Fijo;
+01/07/2024;29.19;Gastos piso;;Transferencia;Fijo;
+01/07/2024;8;Transporte;;Transferencia;Variable;
+01/07/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/08/2024;82.9;Deporte;;Transferencia;Variable;
+01/08/2024;12;Cuidado personal;;Transferencia;Variable;
+01/08/2024;51.5;Comida;;Transferencia;Fijo;
+01/08/2024;51.55;Ocio;;Transferencia;Variable;
+01/08/2024;5;Regalo;;Transferencia;Variable;
+01/08/2024;77.79;Electrónica;;Transferencia;Variable;
+01/08/2024;11;Electrónica;;Transferencia;Fijo;
+01/08/2024;81.94;Gastos piso;;Transferencia;Fijo;
+01/08/2024;8;Transporte;;Transferencia;Variable;
+01/08/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/09/2024;92.9;Deporte;;Transferencia;Variable;
+01/09/2024;12;Cuidado personal;;Transferencia;Variable;
+01/09/2024;50;Comida;;Transferencia;Fijo;
+01/09/2024;900;Ocio;;Transferencia;Variable;
+01/09/2024;5;Regalo;;Transferencia;Variable;
+01/09/2024;23;Electrónica;;Transferencia;Variable;
+01/09/2024;2.83;Electrónica;;Transferencia;Fijo;
+01/09/2024;57.97;Gastos piso;;Transferencia;Fijo;
+01/09/2024;8;Transporte;;Transferencia;Variable;
+01/09/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/10/2024;40.9;Deporte;;Transferencia;Variable;
+01/10/2024;12;Cuidado personal;;Transferencia;Variable;
+01/10/2024;50;Comida;;Transferencia;Fijo;
+01/10/2024;120;Ocio;;Transferencia;Variable;
+01/10/2024;0;Regalo;;Transferencia;Variable;
+01/10/2024;23;Electrónica;;Transferencia;Variable;
+01/10/2024;440.27;Gastos piso;;Transferencia;Fijo;
+01/10/2024;0;Transporte;;Transferencia;Variable;
+01/10/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/11/2024;42.9;Deporte;;Transferencia;Variable;
+01/11/2024;12;Cuidado personal;;Transferencia;Variable;
+01/11/2024;176.7;Comida;;Transferencia;Fijo;
+01/11/2024;111.12;Ocio;;Transferencia;Variable;
+01/11/2024;0;Regalo;;Transferencia;Variable;
+01/11/2024;25.77;Electrónica;;Transferencia;Variable;
+01/11/2024;3;Electrónica;;Transferencia;Fijo;
+01/11/2024;8;Transporte;;Transferencia;Variable;
+01/11/2024;91;Ropa;;Transferencia;Variable;
+01/11/2024;434.92;Gastos piso;;Transferencia;Fijo;
+01/11/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/12/2024;47;Deporte;;Transferencia;Variable;
+01/12/2024;12;Cuidado personal;;Transferencia;Variable;
+01/12/2024;122.73;Comida;;Transferencia;Fijo;
+01/12/2024;162.7;Ocio;;Transferencia;Variable;
+01/12/2024;12;Regalo;;Transferencia;Variable;
+01/12/2024;23;Electrónica;;Transferencia;Variable;
+01/12/2024;44.9;Electrónica;;Transferencia;Fijo;
+01/12/2024;251;Ropa;;Transferencia;Variable;
+01/12/2024;407.29;Gastos piso;;Transferencia;Fijo;
+01/12/2024;358.33;Alquiler;;Transferencia;Fijo;
+01/01/2025;100;Comida;;;Gasto Fijo;Revolut
+01/01/2025;364;Alquiler;;;Gasto Fijo;
+01/01/2025;10;Cuidado personal;;;Gasto Fijo;Peluquería
+01/01/2025;40;Regalo;;;Gasto Fijo;mama
+01/01/2025;20;Regalo;;;Gasto Variable;papa
+01/01/2025;120;Regalo;;;Gasto Variable;María
+01/01/2025;135;Deporte;;;Gasto Variable;zapatillas running
+01/01/2025;102,5;Ocio;;;Gasto Variable;Milan en realidad como 140/150
+01/01/2025;36;Ocio;;;Gasto Variable;Comida fail ajjaa
+01/01/2025;23;Electrónica;;;Gasto Variable;GPT
+01/01/2025;2,5;Deporte;;;Gasto Variable;
+01/01/2025;57;Gastos piso;;;Gasto Fijo;
+01/01/2025;14,1;Transporte;;;Gasto Fijo;
+01/01/2025;4;Electrónica;;;Gasto Fijo;Icloud
+01/01/2025;2,4;Comida;;;Gasto Variable;
+01/01/2025;3;Comida;;;Gasto Variable;
+01/01/2025;8,22;Comida;;;Gasto Variable;
+01/01/2025;6;Regalo;;;Gasto Variable;
+01/01/2025;3;Electrónica;;;Gasto Fijo;
+01/01/2025;9,23;Regalo;;;Gasto Variable;
+01/01/2025;15;Deporte;;;Gasto Variable;
+01/01/2025;4,44;Comida;;;Gasto Variable;
+01/01/2025;40,9;Deporte;;;Gasto Fijo;Gym
+01/02/2025;100;Comida;;;Gasto Fijo;Revolut
+01/02/2025;364;Alquiler;;;Gasto Fijo;
+01/02/2025;48,17666667;Gastos piso;;;Gasto Fijo;
+01/02/2025;8;Transporte;;;Gasto Fijo;
+01/02/2025;23;Electrónica;;;Gasto Fijo;GPT
+01/02/2025;7;Electrónica;;;Gasto Fijo;Spoty + Icloud
+01/02/2025;40,9;Deporte;;;Gasto Fijo;
+01/02/2025;15;Deporte;;;Gasto Fijo;Luso
+01/02/2025;15;Cuidado personal;;;Gasto Fijo;Peluquería
+01/02/2025;9,23;Regalo;;;Gasto Variable;
+01/02/2025;26;Ocio;;;Gasto Variable;
+01/02/2025;8,5;Regalo;;;Gasto Variable;
+01/02/2025;20,6;Ocio;;;Gasto Variable;
+01/02/2025;68,5;Ocio;;;Gasto Variable;
+01/02/2025;16;Ocio;;;Gasto Variable;
+01/02/2025;14,95;Comida;;;Gasto Variable;
+01/02/2025;65,44;Comida;;;Gasto Variable;
+01/02/2025;45;Ocio;;;Gasto Variable;multa
+01/03/2025;364;Alquiler;;;Gasto Fijo;
+01/03/2025;130;Comida;;;Gasto Fijo;
+01/03/2025;23,43333333;Gastos piso;;;Gasto Fijo;
+01/03/2025;8;Transporte;;;Gasto Fijo;
+01/03/2025;23;Electrónica;;;Gasto Fijo;GPT
+01/03/2025;7;Electrónica;;;Gasto Fijo;Spoty + Icloud
+01/03/2025;40,9;Deporte;;;Gasto Fijo;
+01/03/2025;15;Deporte;;;Gasto Fijo;Luso
+01/03/2025;15;Cuidado personal;;;Gasto Fijo;Peluquería
+01/03/2025;95,3;Ropa;;;Gasto Variable;
+01/03/2025;59,5;Ocio;;;Gasto Variable;
+01/03/2025;6,5;Ocio;;;Gasto Variable;
+01/03/2025;58,08;Ropa;;;Gasto Variable;
+01/03/2025;39,44;Ropa;;;Gasto Variable;
+01/03/2025;14;Cuidado personal;;;Gasto Variable;
+01/03/2025;18;Ropa;;;Gasto Variable;
+01/03/2025;70,09;Ropa;;;Gasto Variable;
+01/03/2025;29;Ocio;;;Gasto Variable;
+01/03/2025;52,5;Ocio;;;Gasto Variable;
+01/03/2025;4,74;Formación;;;Gasto Variable;formacion
+01/03/2025;86,86;Ocio;;;Gasto Variable;
+01/03/2025;6,3;Ocio;;;Gasto Variable;
+01/03/2025;20;Hogar;;;Gasto Variable;
+01/03/2025;30,59;Electrónica;;;Gasto Variable;Despertador
+01/03/2025;11,48;Electrónica;;;Gasto Variable;
+01/03/2025;14,5;Ocio;;;Gasto Variable;
+01/03/2025;70,7;Ocio;;;Gasto Variable;
+01/03/2025;5;Ocio;;;Gasto Variable;
+01/03/2025;49,52;Ocio;;;Gasto Variable;
+01/03/2025;75,3;Regalo;;;Gasto Variable;
+01/03/2025;58,4;Regalo;;;Gasto Variable;
+01/03/2025;12;Ocio;;;Gasto Variable;
+01/03/2025;11;Ocio;;;Gasto Variable;
+01/03/2025;29,94;Ropa;;;Gasto Variable;
+01/04/2025;364;Alquiler;;;Gasto Fijo;
+01/04/2025;100;Comida;;;Gasto Fijo;
+01/04/2025;54,00666667;Gastos piso;;;Gasto Fijo;
+01/04/2025;8;Transporte;;;Gasto Fijo;
+01/04/2025;23;Electrónica;;;Gasto Fijo;GPT
+01/04/2025;7;Electrónica;;;Gasto Fijo;Spoty + Icloud
+01/04/2025;40,9;Deporte;;;Gasto Fijo;
+01/04/2025;15;Deporte;;;Gasto Fijo;Luso
+01/04/2025;12;Cuidado personal;;;Gasto Fijo;Peluquería
+01/04/2025;14;Regalo;;;Gasto Variable;Regalo nere
+01/04/2025;27,5;Ropa;;;Gasto Variable;Gafas de sol
+01/04/2025;78,2;Viajes;;;Gasto Variable;Tren 
+01/04/2025;856,61;Viajes;;;Gasto Variable;Edimburgo
+01/04/2025;4,2;Ocio;;;Gasto Variable;
+01/04/2025;4,6;Ocio;;;Gasto Variable;
+01/04/2025;34;ocio;;;Gasto Variable;Zaragoza
+01/04/2025;5,8;Regalo;;;Gasto Variable;
+01/04/2025;11,19;Comida;;;Gasto Variable;
+01/04/2025;14;Deporte;;;Gasto Variable;
+01/04/2025;70,65;Deporte;;;Gasto Variable;HSN ** POR DEFINIR
+01/04/2025;138,73;Ropa;;;Gasto Variable;
+01/05/2025;364;Alquiler;;;Gasto Fijo;
+01/05/2025;100;Comida;;;Gasto Fijo;
+01/05/2025;23,34;Gastos piso;;;Gasto Fijo;
+01/05/2025;8;Transporte;;;Gasto Fijo;
+01/05/2025;23;Electrónica;;;Gasto Fijo;GPT
+01/05/2025;7;Electrónica;;;Gasto Fijo;Spoty + Icloud
+01/05/2025;40,9;Deporte;;;Gasto Fijo;
+01/05/2025;15;Deporte;;;Gasto Fijo;Luso
+01/05/2025;12;Cuidado personal;;;Gasto Fijo;Peluquería
+01/05/2025;436,52;Viajes;;;Gasto Variable;Camino de santiago
+01/05/2025;5,8;Ocio;;;Gasto Variable;
+01/05/2025;12;Transporte;;;Gasto Variable;dni
+01/05/2025;30;Transporte;;;Gasto Variable;pasport
+01/05/2025;20;Ocio;;;Gasto Variable;
+01/05/2025;37,98;Deporte;;;Gasto Variable;
+01/05/2025;16,5;Ocio;;;Gasto Variable;
+01/05/2025;47,6;Deporte;;;Gasto Variable;bci
+01/05/2025;27;Ocio;;;Gasto Variable;
+01/05/2025;11;Ocio;;;Gasto Variable;
+01/05/2025;11;Ocio;;;Gasto Variable;
+01/05/2025;10;Ocio;;;Gasto Variable;
+01/05/2025;4,7;Ocio;;;Gasto Variable;
+01/05/2025;8;Ocio;;;Gasto Variable;
+01/05/2025;18,5;Ocio;;;Gasto Variable;
+01/05/2025;3;Ocio;;;Gasto Variable;
+01/05/2025;14;Ocio;;;Gasto Variable;
+01/05/2025;20,27;Comida;;;Gasto Variable;Comida fail ajjaa
+01/05/2025;2,5;Deporte;;;Gasto Variable;
+01/05/2025;27;Ocio;;;Gasto Variable;
+01/05/2025;9;Comida;;;Gasto Variable;
+01/05/2025;11,59;ocio;;;Gasto Variable;
+01/05/2025;27,9;Ocio;;;Gasto Variable;
+01/05/2025;6,8;Ocio;;;Gasto Variable;
+01/05/2025;40,5;Ocio;;;Gasto Variable;
+01/05/2025;2,5;Ocio;;;Gasto Variable;
+01/05/2025;4,43;Ocio;;;Gasto Variable;
+01/05/2025;120;Cuidado personal;;;Gasto Variable;fisio
+01/05/2025;14,23;Comida;;;Gasto Variable;
+01/05/2025;136;Ropa;;;Gasto Variable;
+01/05/2025;3,69;Ocio;;;Gasto Variable;
+01/05/2025;6,38;Ocio;;;Gasto Variable;
+01/05/2025;2,5;Deporte;;;Gasto Variable;
+01/05/2025;41;Ocio;;;Gasto Variable;Toros
+01/05/2025;3;Ocio;;;Gasto Variable;
+01/05/2025;5;Ocio;;;Gasto Variable;
+01/05/2025;65;Ocio;;;Gasto Variable;Pueblo
+01/06/2025;364;Alquiler;;;Gasto Fijo;
+01/06/2025;100;Comida;;;Gasto Fijo;
+01/06/2025;42,93;Gastos piso;;;Gasto Fijo;
+01/06/2025;8;Transporte;;;Gasto Fijo;
+01/06/2025;23;Electrónica;;;Gasto Fijo;gpt
+01/06/2025;7;Electrónica;;;Gasto Fijo;icloud
+01/06/2025;40,9;Deporte;;;Gasto Fijo;
+01/06/2025;24,27;Ocio;;;Gasto Variable;
+01/06/2025;26;Cuidado personal;;;Gasto Fijo;
+01/06/2025;5;Deporte;;;Gasto Variable;Piscina
+01/06/2025;50,66;Deporte;;;Gasto Variable;Entrada Maratón
+01/06/2025;10;Regalo;;;Gasto Variable;
+01/06/2025;19,9;Regalo;;;Gasto Variable;
+01/06/2025;10;Regalo;;;Gasto Variable;
+01/06/2025;61,85;Ropa;;;Gasto Variable;
+01/06/2025;19,49;Ropa;;;Gasto Variable;
+01/06/2025;18;Regalo;;;Gasto Variable;
+01/06/2025;110,82;;;;Gasto Variable;revisar
+01/06/2025;39,97;;;;Gasto Variable;revisar
+01/06/2025;40;Cuidado personal;;;Gasto Variable;fisio
+01/06/2025;11,62;ocio;;;Gasto Variable;
+01/06/2025;13,67;comida;;;Gasto Variable;
+01/06/2025;3;Ocio;;;Gasto Variable;
+01/06/2025;6,8;Ocio;;;Gasto Variable;
+01/06/2025;8,38;Cuidado personal;;;Gasto Variable;
+01/06/2025;17,5;Ocio;;;Gasto Variable;
+01/06/2025;6,1;Transporte;;;Gasto Variable;
+01/07/2025;364;Alquiler;;;Gasto Fijo;
+01/07/2025;100;Comida;;;Gasto Fijo;
+01/07/2025;17,53666667;Gastos piso;;;Gasto Fijo;
+01/07/2025;10;Transporte;;;Gasto Fijo;
+01/07/2025;23;Electrónica;;;Gasto Fijo;gpt
+01/07/2025;7;Electrónica;;;Gasto Fijo;icloud
+01/07/2025;40,9;Deporte;;;Gasto Fijo;
+01/07/2025;29;Ocio;;;Gasto Variable;
+01/07/2025;25;Ropa;;;Gasto Variable;Polo pdh
+01/07/2025;30;Deporte;;;Gasto Variable;Aerogym
+01/07/2025;52;Ropa;;;Gasto Variable;Polos Maximo
+01/07/2025;6,2;Transporte;;;Gasto Variable;
+01/07/2025;16,8;Deporte;;;Gasto Variable;carrera derbi
+01/07/2025;26,4;Ocio;;;Gasto Variable;sushido
+01/07/2025;15;Deporte;;;Gasto Variable;rodillo
+01/07/2025;4,2;Transporte;;;Gasto Variable;
+01/07/2025;14;Deporte;;;Gasto Variable;funda bici
+01/07/2025;4,2;Transporte;;;Gasto Variable;
+01/07/2025;104,96;Ropa;;;Gasto Variable;Silbon
+01/07/2025;9;Ocio;;;Gasto Variable;
+01/07/2025;43,18;Ropa;;;Gasto Variable;
+01/07/2025;10;Comida;;;Gasto Variable;
+01/07/2025;6;Ropa;;;Gasto Variable;Arreglar pantalones
+01/07/2025;3,1;Transporte;;;Gasto Variable;
+01/07/2025;12;Ocio;;;Gasto Variable;
+01/07/2025;35;Ropa;;;Gasto Variable;Zapatillas
+01/07/2025;184,2;Viajes;;;Gasto Variable;
+01/07/2025;10;Comida;;;Gasto Variable;
+01/07/2025;125;Formación;;;Gasto Variable;Titulo
+01/07/2025;32;Deporte;;;Gasto Variable;
+01/07/2025;26,88;;;;Gasto Variable;Corte???
+01/08/2025;364;Alquiler;;;Gasto Fijo;
+01/08/2025;32,67666667;Gastos piso;;;Gasto Fijo;
+01/08/2025;10;Transporte;;;Gasto Fijo;
+01/08/2025;23;Electrónica;;;Gasto Fijo;gpt
+01/08/2025;7;Electrónica;;;Gasto Fijo;icloud
+01/08/2025;40,9;Deporte;;;Gasto Fijo;
+01/08/2025;527,9;Viajes;;;Gasto Variable;
+01/08/2025;782,5;Viajes;;;Gasto Variable;
+01/08/2025;18,25;Ocio;;;Gasto Variable;
+01/08/2025;4;Cuidado personal;;;Gasto Variable;
+01/08/2025;3,2;Ocio;;;Gasto Variable;
+01/08/2025;35;Ocio;;;Gasto Variable;
+01/08/2025;45;Ocio;;;Gasto Variable;
+01/08/2025;9;Ocio;;;Gasto Variable;
+01/08/2025;21,57;Ropa;;;Gasto Variable;
+01/08/2025;27,1;Hogar;;;Gasto Variable;Cafetera
+01/08/2025;3,1;Transporte;;;Gasto Variable;
+01/08/2025;8,2;Ocio;;;Gasto Variable;
+01/08/2025;114;Ropa;;;Gasto Variable;Zapatillas
+01/08/2025;3,1;Transporte;;;Gasto Variable;
+01/09/2025;52,9;Deporte;;;Gasto Variable;
+01/09/2025;364;Alquiler;;;Gasto Fijo;
+01/09/2025;16,74666667;Gastos piso;;;Gasto Fijo;
+01/09/2025;10;Transporte;;;Gasto Fijo;
+01/09/2025;23;Electrónica;;;Gasto Fijo;gpt
+01/09/2025;7;Electrónica;;;Gasto Fijo;icloud
+01/09/2025;40,9;Deporte;;;Gasto Fijo;
+01/09/2025;130;Comida;;;Gasto Fijo;
+01/09/2025;15;Deporte;;;Gasto Fijo;
+01/09/2025;12;Transporte;;;Gasto Variable;Taxi
+01/09/2025;7,6;Formación;;;Gasto Variable;Libro
+01/09/2025;3,6;Ocio;;;Gasto Variable;
+01/09/2025;3,1;Transporte;;;Gasto Variable;
+01/09/2025;3,1;Transporte;;;Gasto Variable;
+01/09/2025;2;Electrónica;;;Gasto Variable;
+01/09/2025;18,65;Ocio;;;Gasto Variable;
+01/09/2025;37,3;Ocio;;;Gasto Variable;
+01/09/2025;80;Viajes;;;Gasto Variable;
+01/09/2025;26,2;Regalo;;;Gasto Variable;
+01/09/2025;10;Ocio;;;Gasto Variable;
+01/09/2025;74,4;Ocio;;;Gasto Variable;
+01/09/2025;37;Deporte;;;Gasto Variable;GYMPASS
+01/09/2025;3,6;Transporte;;;Gasto Variable;
+01/09/2025;34,33;Comida;;;Gasto Variable;
+01/09/2025;12;Ocio;;;Gasto Variable;
+01/09/2025;29;Regalo;;;Gasto Variable;
+01/09/2025;34,4;comida;;;Gasto Variable;
+01/09/2025;6,2;Transporte;;;Gasto Variable;
+01/09/2025;2,1;Transporte;;;Gasto Variable;
+01/09/2025;11,55;Ocio;;;Gasto Variable;
+01/09/2025;21;Ocio;;;Gasto Variable;
+01/10/2025;364;Alquiler;;;Gasto Fijo;
+01/10/2025;43,31333333;Gastos piso;;;Gasto Fijo;
+01/10/2025;10;Transporte;;;Gasto Fijo;
+01/10/2025;23;Electrónica;;;Gasto Fijo;
+01/10/2025;7;Electrónica;;;Gasto Fijo;
+01/10/2025;37;Deporte;;;Gasto Fijo;
+01/10/2025;120;Comida;;;Gasto Fijo;
+01/10/2025;20;Deporte;;;Gasto Fijo;
+01/10/2025;76,18;Transporte;;;Gasto Variable;
+01/10/2025;51,6;Regalo;;;Gasto Variable;
+01/10/2025;50;Ropa;;;Gasto Variable;
+01/10/2025;28;Ocio;;;Gasto Variable;
+01/10/2025;13;Ocio;;;Gasto Variable;
+01/10/2025;6,6;Ocio;;;Gasto Variable;
+01/10/2025;229,79;Viajes;;;Gasto Variable;
+01/10/2025;55;Ocio;;;Gasto Variable;
+01/10/2025;105;Ropa;;;Gasto Variable;novablast
+01/10/2025;69,34;Ocio;;;Gasto Variable;
+01/10/2025;58;Regalo;;;Gasto Variable;
+01/10/2025;10,94;Regalo;;;Gasto Variable;
+01/10/2025;17;Regalo;;;Gasto Variable;
+01/10/2025;30,84;Regalo;;;Gasto Variable;
+01/10/2025;10;Regalo;;;Gasto Variable;
+01/10/2025;10,73;Transporte;;;Gasto Variable;
+01/10/2025;2,7;Deporte;;;Gasto Variable;
+01/10/2025;23;Ropa;;;Gasto Variable;
+01/10/2025;40;Ropa;;;Gasto Variable;
+01/10/2025;30,59;Comida;;;Gasto Variable;
+01/10/2025;8,48;Hogar;;;Gasto Variable;
+01/11/2025;364;Alquiler;;;Gasto Fijo;
+01/11/2025;44,91;Gastos piso;;;Gasto Fijo;
+01/11/2025;10;Transporte;;;Gasto Fijo;
+01/11/2025;23;Electrónica;;;Gasto Fijo;
+01/11/2025;7;Electrónica;;;Gasto Fijo;
+01/11/2025;37;Deporte;;;Gasto Fijo;
+01/11/2025;20;Deporte;;;Gasto Fijo;
+01/11/2025;228,84;Viajes;;;Gasto Variable;
+01/11/2025;14,9;Ocio;;;Gasto Variable;
+01/11/2025;14;Deporte;;;Gasto Variable;
+01/11/2025;18,9;Formación;;;Gasto Variable;
+01/11/2025;7,3;Transporte;;;Gasto Variable;
+01/11/2025;5;Deporte;;;Gasto Variable;
+01/11/2025;2,7;Deporte;;;Gasto Variable;
+01/11/2025;4;Deporte;;;Gasto Variable;
+01/11/2025;50;Ocio;;;Gasto Variable;
+01/11/2025;40,62;Ropa;;;Gasto Variable;
+01/11/2025;5,66;Comida;;;Gasto Variable;
+01/11/2025;58,66;Ocio;;;Gasto Variable;
+01/11/2025;38,75;Regalo;;;Gasto Variable;
+01/11/2025;10,3;Regalo;;;Gasto Variable;
+01/11/2025;58;Ropa;;;Gasto Variable;
+01/11/2025;;;;;Gasto Variable;
+01/11/2025;;;;;Gasto Variable;
+01/11/2025;;;;;Gasto Variable;
+01/11/2025;;;;;Gasto Variable;
+01/11/2025;;;;;Gasto Variable;
