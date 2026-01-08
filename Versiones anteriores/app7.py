@@ -129,7 +129,7 @@ def update_expense(
     conn.close()
 
 
-def get_all_income(user_id):
+def get_last_income(user_id, limit=20):
     conn = get_connection()
     df = pd.read_sql(
         """
@@ -137,15 +137,16 @@ def get_all_income(user_id):
         FROM income
         WHERE user_id = %(user_id)s
         ORDER BY date DESC, id DESC
+        LIMIT %(limit)s
         """,
         conn,
-        params={"user_id": int(user_id)},
+        params={"user_id": int(user_id), "limit": int(limit)},
     )
     conn.close()
     return df
 
 
-def get_all_expenses(user_id):
+def get_last_expenses(user_id, limit=20):
     conn = get_connection()
     df = pd.read_sql(
         """
@@ -153,9 +154,10 @@ def get_all_expenses(user_id):
         FROM expenses
         WHERE user_id = %(user_id)s
         ORDER BY date DESC, id DESC
+        LIMIT %(limit)s
         """,
         conn,
-        params={"user_id": int(user_id)},
+        params={"user_id": int(user_id), "limit": int(limit)},
     )
     conn.close()
     return df
@@ -412,7 +414,7 @@ def get_investments_df(user_id):
     return df
 
 
-def get_all_investments(user_id):
+def get_last_investments(user_id, limit=20):
     conn = get_connection()
     df = pd.read_sql(
         """
@@ -420,9 +422,10 @@ def get_all_investments(user_id):
         FROM investments
         WHERE user_id = %(user_id)s
         ORDER BY date DESC, id DESC
+        LIMIT %(limit)s
         """,
         conn,
-        params={"user_id": int(user_id)},
+        params={"user_id": int(user_id), "limit": int(limit)},
     )
     conn.close()
     if not df.empty:
@@ -631,7 +634,7 @@ def get_cash_df(user_id):
     return df
 
 
-def get_all_cash(user_id):
+def get_last_cash(user_id, limit=20):
     conn = get_connection()
     df = pd.read_sql(
         """
@@ -639,9 +642,10 @@ def get_all_cash(user_id):
         FROM cash_snapshots
         WHERE user_id = %(user_id)s
         ORDER BY date DESC, id DESC
+        LIMIT %(limit)s
         """,
         conn,
-        params={"user_id": int(user_id)},
+        params={"user_id": int(user_id), "limit": int(limit)},
     )
     conn.close()
     if not df.empty:
@@ -1140,7 +1144,7 @@ elif menu == "Registro":
         # -------------------------
         st.subheader("Últimos gastos")
 
-        df_exp = get_all_expenses(user_id)
+        df_exp = get_last_expenses(user_id, limit=20)
 
         if df_exp.empty:
             st.info("No hay gastos registrados.")
@@ -1300,7 +1304,7 @@ elif menu == "Registro":
         # -------------------------
         st.subheader("Últimos ingresos")
 
-        df_inc = get_all_income(user_id)
+        df_inc = get_last_income(user_id, limit=20)
 
         if df_inc.empty:
             st.info("No hay ingresos registrados.")
@@ -1601,13 +1605,8 @@ elif menu == "Resumen":
                                     sort=alt.SortField(field="month_num", order="ascending")),
                             y=alt.Y("savings:Q", title="Ahorro (€)"),
                         )
-                        bar_sav = base_sav.mark_bar(color="#3B82F6")  # Barras azules
-                        text_sav = base_sav.mark_text(
-                            align="center",
-                            baseline="middle",
-                            color="white",
-                            fontWeight="bold"
-                        ).encode(text=alt.Text("savings:Q", format=".0f"))
+                        line_sav = base_sav.mark_line(point=True)
+                        text_sav = base_sav.mark_text(dy=-10).encode(text=alt.Text("savings:Q", format=".0f"))
 
                         zero_line = (
                             alt.Chart(pd.DataFrame({"y": [0]}))
@@ -1615,7 +1614,7 @@ elif menu == "Resumen":
                             .encode(y="y:Q")
                         )
 
-                        st.altair_chart(bar_sav + text_sav + zero_line, use_container_width=True)
+                        st.altair_chart(line_sav + text_sav + zero_line, use_container_width=True)
                     else:
                         st.info("No hay datos mensuales suficientes para mostrar la evolución del ahorro.")
 
@@ -1677,35 +1676,14 @@ elif menu == "Resumen":
                         df_type["percent"] = df_type["amount"] / total_type * 100
                         df_type["percent_label"] = df_type["percent"].map(lambda x: f"{x:.1f}%")
 
-                        # Colores personalizados para mejor distinción
-                        color_scale = alt.Scale(
-                            domain=["Fijo", "Variable", "No definido"],
-                            range=["#3B82F6", "#10B981", "#6B7280"]  # Azul, Verde, Gris
-                        )
-
-                        pie = alt.Chart(df_type).mark_arc(innerRadius=0).encode(
+                        pie = alt.Chart(df_type).mark_arc().encode(
                             theta=alt.Theta("amount:Q", stack=True),
-                            color=alt.Color(
-                                "expense_type:N",
-                                title="Tipo de gasto",
-                                scale=color_scale,
-                                legend=alt.Legend(
-                                    orient="bottom",
-                                    direction="horizontal",
-                                    titleAnchor="middle"
-                                )
-                            ),
+                            color=alt.Color("expense_type:N", title="Tipo de gasto"),
                             tooltip=["expense_type", "amount", "percent_label"],
                         )
-                        
-                        # Texto con porcentajes dentro del gráfico
-                        text_pie = alt.Chart(df_type).mark_text(
-                            radius=60,
-                            size=14,
-                            color="white",
-                            fontWeight="bold"
-                        ).encode(
+                        text_pie = alt.Chart(df_type).mark_text(radius=80, size=12).encode(
                             theta=alt.Theta("amount:Q", stack=True),
+                            color=alt.Color("expense_type:N", legend=None),
                             text=alt.Text("percent_label:N"),
                         )
 
@@ -2177,7 +2155,7 @@ elif menu == "Registro inversiones":
     # -------- ÚLTIMOS MOVIMIENTOS -------- #
     st.markdown("### Últimos movimientos registrados")
 
-    df_last_mov = get_all_investments(user_id)
+    df_last_mov = get_last_investments(user_id, limit=20)
     if df_last_mov.empty:
         st.info("Todavía no hay movimientos registrados.")
     else:
@@ -2296,8 +2274,10 @@ elif menu == "Registro inversiones":
         if submitted_inv:
             if not cuenta.strip():
                 st.error("El producto no puede estar vacío.")
-            elif importe_mov < 0:
+            elif importe_mov <= 0:
                 st.error("El importe del movimiento debe ser mayor que 0.")
+            elif valor_actual < 0:
+                st.error("El valor actual no puede ser negativo.")
             else:
                 contrib_signed = importe_mov if "Entrada" in mov_type else -importe_mov
 
@@ -2318,7 +2298,7 @@ elif menu == "Registro inversiones":
     # =========================
     st.markdown("### Últimos movimientos registrados")
 
-    df_last_mov = get_all_investments(user_id)
+    df_last_mov = get_last_investments(user_id, limit=20)
     if df_last_mov.empty:
         st.info("Todavía no hay movimientos registrados.")
     else:
@@ -3156,7 +3136,7 @@ elif menu == "Registro efectivo":
     #   LISTADO + EDITAR / BORRAR
     # =========================
     st.markdown("### Últimos snapshots")
-    df_last = get_all_cash(user_id)
+    df_last = get_last_cash(user_id, limit=30)
 
     if df_last.empty:
         st.info("Todavía no hay snapshots de efectivo.")
@@ -3393,14 +3373,9 @@ elif menu == "Patrimonio":
                 x=alt.X("month_label:N", title="Mes"),
                 y=alt.Y("wealth:Q", title="Patrimonio (€)"),
             )
-            bar = base.mark_bar(color="#3B82F6")  # Barras azules
-            text = base.mark_text(
-                align="center",
-                baseline="middle",
-                color="white",
-                fontWeight="bold"
-            ).encode(text=alt.Text("wealth:Q", format=".0f"))
-            st.altair_chart(bar + text, use_container_width=True)
+            line = base.mark_line(point=True)
+            text = base.mark_text(dy=-10).encode(text=alt.Text("wealth:Q", format=".0f"))
+            st.altair_chart(line + text, use_container_width=True)
 
         st.markdown("---")
 
