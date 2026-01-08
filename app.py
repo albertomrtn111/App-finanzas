@@ -2154,8 +2154,8 @@ elif menu == "Registro inversiones":
         if submitted_inv:
             if not cuenta.strip():
                 st.error("El producto no puede estar vacío.")
-            elif importe_mov <= 0:
-                st.error("El importe del movimiento debe ser mayor que 0.")
+            elif importe_mov < 0:
+                st.error("El importe del movimiento no puede ser negativo.")
             elif valor_actual < 0:
                 st.error("El valor actual no puede ser negativo.")
             else:
@@ -2436,8 +2436,8 @@ elif menu == "Registro inversiones":
                     if save_edit:
                         if not cuenta_edit.strip():
                             st.error("El producto no puede estar vacío.")
-                        elif importe_mov_edit <= 0:
-                            st.error("El importe del movimiento debe ser mayor que 0.")
+                        elif importe_mov_edit < 0:
+                            st.error("El importe del movimiento no puede ser negativo.")
                         elif valor_actual_edit < 0:
                             st.error("El valor actual no puede ser negativo.")
                         else:
