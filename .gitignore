@@ -6,3 +6,7 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+finanzas_dump.dump
+finanzas_dump.sql
+_local/
+Versiones anteriores/
